@@ -10,24 +10,10 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Optionmenu"
+        android:theme="@style/Theme.Explicitintent"
         tools:targetApi="31">
         <activity
-            android:name=".menu_main"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".activityTwo"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".activityOne"
+            android:name=".SecondActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
